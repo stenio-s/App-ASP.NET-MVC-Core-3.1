@@ -19,7 +19,6 @@ namespace DevIO.Data.Mappings
                 .HasColumnType("varchar(50)");
 
             builder.Property(p => p.Complemento)
-                .IsRequired()
                 .HasColumnType("varchar(250)");
 
             builder.Property(p => p.CEP)
