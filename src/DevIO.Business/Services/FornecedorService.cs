@@ -40,7 +40,7 @@ namespace DevIO.Business.Services
 
             if(_fornecedorRepository.Buscar(x=>x.Documento == fornecedor.Documento && x.Id != fornecedor.Id).Result.Any())
             {
-                Notificar("Já existe um fornecedor com o documento informado.");
+                Notificar("Não é possível mudar o Documento do fornecedor.");
                 return;
             }
 

@@ -359,14 +359,8 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
+# Para todos os arquivos localizados na pasta imagens/
+imagens/
+
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/src/DevIO.App/wwwroot/imagens/9bc5e5b5-256b-42ad-b574-80f4a6894b08_bulbasaur.jpg
-/src/DevIO.App/wwwroot/imagens/9a583e9c-04e7-4a11-a1f4-28b0a37e8368_unnamed.png
-/src/DevIO.App/wwwroot/imagens/84a6b939-b953-4c69-8079-f21c23303d1f_unnamed.png
-/src/DevIO.App/wwwroot/imagens/66b017fe-4ced-4056-99d5-e993c1f3b9db_bulbasaur.jpg
-/src/DevIO.App/wwwroot/imagens/63b331b0-db7f-4942-a467-4420227f9992_unnamed.png
-/src/DevIO.App/wwwroot/imagens/49cfb373-9ff8-47e1-8c43-69ef37367b4c_unnamed.png
-/src/DevIO.App/wwwroot/imagens/0cb1df48-bdca-4d3e-9457-bb55b63766e8_bulbasaur.jpg
-/src/DevIO.App/wwwroot/imagens/07b07275-3318-4475-b1ff-fbae47728b43_143873896_3604105009703048_8437285124819875794_n.jpg
-/src/DevIO.App/wwwroot/imagens/14b7f126-4e7b-4de2-bfcc-c3d9a957f2d8_143873896_3604105009703048_8437285124819875794_n.jpg
