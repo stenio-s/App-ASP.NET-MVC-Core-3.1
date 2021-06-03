@@ -64,7 +64,6 @@ namespace DevIO.App.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         [Route("novo-produto")]
         [ClaimsAuthorize("Produto", "Adicionar")]
         public async Task<IActionResult> Create(ProdutoViewModel produtoViewModel)
@@ -105,7 +104,6 @@ namespace DevIO.App.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         [Route("editar-produto/{id:guid}")]
         [ClaimsAuthorize("Produto", "Editar")]
         public async Task<IActionResult> Edit(Guid id, ProdutoViewModel produtoViewModel)
@@ -157,7 +155,6 @@ namespace DevIO.App.Controllers
         }
 
         [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
         [Route("excluir-produto/{id:guid}")]
         [ClaimsAuthorize("Produto", "Excluir")]
         public async Task<IActionResult> DeleteConfirmed(Guid id)

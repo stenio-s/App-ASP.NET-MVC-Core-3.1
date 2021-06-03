@@ -15,7 +15,7 @@ namespace DevIO.App.Extensions
             output.TagName = "a";
             var content = await output.GetChildContentAsync();
             var target = content.GetContent() + "@" + EmailDomain;
-            output.Attributes.SetAttribute("href", "mailto" + target);
+            output.Attributes.SetAttribute("href", "mailto:" + target);
             output.Content.SetContent(target);
         }
     }
